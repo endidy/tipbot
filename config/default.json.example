@@ -1,0 +1,27 @@
+{
+  // Bot configuration
+  "bot": {
+      "token":"Bot-Token",
+      "prefix": "$",
+      "debug": true
+  },
+    "dividendcash": {
+    "paytxfee": 0.01,
+    "config": {
+      "port": 3336,
+      "user": "user",
+      "pass": "pass"
+    }
+  },
+  "moderation":{
+  "pm2Name": "TipBot",
+   // Roles that have access to all commands.
+  "perms": ["Dividendcash","Advisor"],
+  // Bot Devs!
+  "botDev": "Dividendcash",
+  // Channel to log the bots moderation..
+  "logchannel": "440474704059432960",
+  //channel that the tip message will reply in if Multi or Role tip is used.
+  "botspamchannels": ["456833751184572450"]
+  }
+}
