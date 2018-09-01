@@ -8,7 +8,7 @@
     "dividendcash": {
     "paytxfee": 0.01,
     "config": {
-      "port": 3336,
+      "port": 19997,
       "user": "user",
       "pass": "pass"
     }
@@ -16,7 +16,7 @@
   "moderation":{
   "pm2Name": "TipBot",
    // Roles that have access to all commands.
-  "perms": ["Dividendcash","Advisor"],
+  "perms": ["Dvdbot"],
   // Bot Devs!
   "botDev": "Dividendcash",
   // Channel to log the bots moderation..

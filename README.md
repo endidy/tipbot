@@ -41,10 +41,10 @@ https://discordapp.com/oauth2/authorize?client_id=INSERT_CLIENT_ID_HERE&scope=bo
 2) Edit and rename `default.json.example` to `default.json` in `/config`. You will use the same info in the next step.
 
     ```
-    "raven": {
-      "paytxfee": .01
+    "dividendcash": {
+      "paytxfee": .001
       "config":
-        "port": 3335,
+        "port": 19997,
         "user": "username",
         "pass": "Do-Not-Use-This-Password-Youll-Be-Hacked-For-all-Teh-Moneys!"
       }
@@ -66,7 +66,7 @@ https://discordapp.com/oauth2/authorize?client_id=INSERT_CLIENT_ID_HERE&scope=bo
         par=1
         rpcbind=127.0.0.1
         rpcallowip=127.0.0.1
-        rpcport=3335
+        rpcport=19997
         rpcuser=<Same-as-you-set-in-config.json>
         rpcpassword=<Same-as-you-set-in-config.json>
         rpcclienttimeout=30
